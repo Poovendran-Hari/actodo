@@ -40,7 +40,7 @@ function Login(props) {
     return (<div className="bg-black p-10">
         <div className="bg-white p-10 rounded-md flex flex-col gap-2">
             <div className="flex flex-col gap-1">
-                <h1 className="font-bold text-3xl">Hey,Kanishka</h1>
+                <h1 className="font-bold text-3xl">Hey,</h1>
                 {
                     ruser ? <p>I can help you to manage your activities after Login</p> : <p className="text-red-500">Please  <Link to="/signup" className=" underline font-semibold">Sign Up</Link> before login </p>
                 }
